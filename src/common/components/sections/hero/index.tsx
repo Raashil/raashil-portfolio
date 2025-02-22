@@ -36,7 +36,7 @@ export default function Hero() {
           loop
           className="absolute -z-10 h-screen w-screen object-cover"
         >
-          <source src="/layout.mp4" />
+          <source src="/brooklyn_bridge.mp4" />
         </video>
         <div className="container flex flex-col items-start justify-center tracking-wide text-black dark:text-white">
           <div className="container relative flex h-full w-full flex-col items-center">
@@ -88,7 +88,7 @@ export default function Hero() {
                 </a>
                 <a
                   className="borderBlack flex h-[50px] w-[50px] cursor-pointer items-center justify-center gap-2 rounded-full bg-white p-2 text-gray-700 transition hover:bg-gray-100 hover:text-gray-950 dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20"
-                  href="https://github.com/bbyc4kes"
+                  href="https://github.com/Raashil"
                   target="_blank"
                 >
                   <Image

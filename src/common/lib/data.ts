@@ -10,6 +10,7 @@ import portfolioImg from '@/../public/images/portfolio.png';
 import auditMasterImg from '@/../public/images/audit-master.png';
 import accountingImg from '@/../public/images/accounting.jpg';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
+import { title } from 'process';
 
 export const links = [
   {
@@ -40,36 +41,43 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Trustsoft s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'College Aid Software Intern @ MTA',
+    location: 'Brooklyn, New York, United States',
     description:
-      'Front-end Developer. Providing services in the field of information technology services, including administration servers, cloud services, information systems and software development.',
+      'Developed interactive React dashboards with real-time insights and Deepseek LLM for natural language queries. Streamlined EAM software, cutting task time by 50% and boosting workflow efficiency with tailored analytics dashboards.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
+    date: 'Sept 2024 - Present',
   },
   {
-    title: 'Granton s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'SDE @ Capgemini',
+    location: 'Mumbai',
     description:
-      'Front-end Developer. Delivering flawless UI/UX, Frontend Workflow, Architecture & App Development.',
+      'Full-Stack Developer. Delivering flawless UI/UX, Frontend Workflow, Architecture & App Development.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
+    date: 'Oct 2022 - Aug 2023',
   },
   {
-    title: 'WhirrCrew s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'SDE Intern @ Capgemini',
+    location: 'Bengaluru',
     description:
-      'Front-end Developer. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration.',
+      'Front-end Developer. Secured a Capgemini internship through college recognition, trained in Full Stack, and quickly transitioned to a full-time Software Analyst role due to dedication and skill growth.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
+    date: 'Apr 2022 - Oct 2022',
   },
   {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. The faculty of Cyber Security and Software Engineering.`,
+    title: 'Data Research Analyst',
+    location: 'Indian Institute of Management Ahmedabad',
+    description: `Being in my Undergrad(IS).Processed and analyzed diverse datasets for Keeto, improving extraction accuracy by 10% using NLP and providing valuable insights from thousands of data points.`,
     icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Jun 2024',
+    date: 'Apr 2021 - May 2021',
   },
+  {
+      title: 'Machine Learning Intern',
+      location: 'Indian Institute of Technology',
+      description: `Being in my Undergrad(IS). Learned Python programming and utilized various libraries to boost skills. Expanded professional networks within the tech community.`,
+      icon: React.createElement(BookIcon),
+      date: 'Sept 2020 - Oct 2020',
+    },
 ] as const;
 
 export const images = {
@@ -82,35 +90,35 @@ export const images = {
 
 export const projectsData = [
   {
-    title: 'Audit Master',
-    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, Due Diligence & more.`,
+    title: 'Cogniscruit',
+    description: `Generating Interview Questions for Candidates Using Large Language Models (LLMs) while considering GitHub, LinkedIn, and Leetcode.`,
     tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'SCRUM Methodology'],
     imageUrl: auditMasterImg,
-    link: 'https://auditmaster.ai/',
+    link: 'https://github.com/Raashil/Cogniscruit',
+    status: '\n*Under Development🚧*',
   },
   {
-    title: 'Demo Automation of accounting documents processing',
+    title: 'ConnectWise',
     description:
-      'Upload any receipt or invoice (even a crumpled one from your pocket) and watch our AI accurately extract its data.',
-    tags: ['TypeScript', 'React', 'Docker', 'Next.js', 'GraphQL', 'Tailwind'],
+      'ConnectWise automates personalized cold emails for software companies using web scraping, NLP, LLMs, and vector databases to identify clients, analyze needs, and create tailored outreach messages.',
+    tags: ['Groq', 'LangChain', 'Streamlit', 'ChromaDB', 'Pandas', 'Python'],
     imageUrl: accountingImg,
-    link: 'https://demo.grantonai.cz/',
+    link: 'https://github.com/Raashil/ConnectWise_DeepLearning_Project',
   },
   {
-    title: 'FileDrive',
+    title: 'Facial Recognition with Deepface',
     description:
-      'A platform for decentralized file storage with robust user management.',
+      'The facial recognition engine uses Swarup Ghosh pre-trained VGG-Face2 weights and preprocessing pipeline for optimal performance. Additional backends like MediaPipe and RetinaFace are supported. A Jupyter Notebook demo showcases its capabilities, while a Kivy UI and Firebase integration are in progress under the feat/seed branch.',
     tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Convex',
-      'Clerk',
-      'Shadcn',
-      'Tailwind',
+      'Kivy',
+      'TensorFlow',
+      'CNN',
+      'SVM',
+      'Open_CV',
+      'Firebase',
     ],
     imageUrl: filedriveImg,
-    link: 'https://github.com/bbyc4kes/file-drive',
+    link: 'https://github.com/JoshuaGottlieb/Facial-Recognition-with-Deepface',
   },
   {
     title: 'Portfolio',
@@ -125,26 +133,40 @@ export const projectsData = [
       'Tailwind',
     ],
     imageUrl: portfolioImg,
-    link: 'https://github.com/bbyc4kes/portfolio',
+    link: 'https://github.com/Raashil/raashil-portfolio',
   },
 
   {
-    title: 'Surge',
+    title: 'SumAI',
     description:
-      'Service that allows users to build and manage their own websites with integrated payment processing.',
+      'An AI-driven tool leveraging LLAMA3 and TogetherAI to automate meeting summary generation/emailing.',
     tags: [
       'React',
       'TypeScript',
-      'Next.js',
-      'MySQL',
-      'Clerk',
-      'Stripe Connect',
-      'Shadcn',
+      'TensoFlow',
+      'LLama',
+      'Python',
       'Tailwind',
     ],
     imageUrl: surgeImg,
-    link: 'https://github.com/bbyc4kes/surge',
+    link: 'https://github.com/rushi1222/sum.A.I',
   },
+
+   {
+      title: 'Blockby',
+      description:
+        'An efficient and Privacy Preserving Biometric Identification Scheme in Cloud Computing with Blockchain',
+      tags: [
+        'Blockchain',
+        'Ethereum',
+        'AES alogorithm',
+        'SHA-1',
+        'Cloud',
+        'Python',
+      ],
+      imageUrl: surgeImg,
+      link: 'https://github.com/Raashil/Biometric-s-ft.-Blockchain',
+    },
 ] as const;
 
 export const skillsData = [
