@@ -10,7 +10,7 @@ export default function Footer() {
             How about we break the ice and start a conversation?
           </span>{" "}
           It&apos;s like adding sprinkles to the cake of life - makes everything
-          more fun!
+          more fun!!
         </p>
       </section>
     </footer>
