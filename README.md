@@ -57,7 +57,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Usage
 
-This project includes several components and utilities that you can use and modify to create your own personalized portfolio. Here is an overview of the main files and directories:
+This project includes several components and utilities. Here is an overview of the main files and directories:
 
 - `components/`: Contains reusable UI components.
 - `app/`: Contains the Next.js app.
