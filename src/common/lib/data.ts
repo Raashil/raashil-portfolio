@@ -41,10 +41,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'College Aid Software Intern @ MTA',
+    title: 'Software Intern @ MTA',
     location: 'Brooklyn, New York, United States',
     description:
-      'Developed interactive React dashboards with real-time insights and Deepseek LLM for natural language queries. Streamlined EAM software, cutting task time by 50% and boosting workflow efficiency with tailored analytics dashboards.',
+      'I developing interactive React dashboards powered by Deepseek LLM, enabling natural language queries and delivering real-time insights to drive data-driven decision-making. I streamlined Enterprise Asset Management (EAM) software, reducing task completion time by 50% and enhancing workflow efficiency through tailored analytics dashboards. Currently, as the sole intern researcher at the MTA, I’m leading R&D efforts to build an innovative product that is projected to save the company MILLIONS by optimizing operations and revolutionizing efficiency. This unique opportunity allows me to combine my technical expertise with strategic problem-solving to create impactful, large-scale solutions.',
     icon: React.createElement(BriefcaseBusinessIcon),
     date: 'Sept 2024 - Present',
   },
@@ -181,13 +181,9 @@ export const skillsData = [
   ['Shadcn', '/svgs/shadcnui.svg'],
   ['Headless', '/svgs/brand-headlessui.svg'],
   ['Redux', '/svgs/redux-original.svg'],
-  ['Prisma', '/svgs/file-type-light-prisma.svg'],
   ['MongoDB', '/svgs/mongodb-original.svg'],
   ['PostgreSQL', '/svgs/postgresql.svg'],
   ['MySQL', '/svgs/MySQL.svg'],
-  ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
-  ['Tanstack Table', '/svgs/db-table-svgrepo-com.svg'],
-  ['Cloudinary', '/svgs/cloudinary.svg'],
   ['Golang', '/svgs/golang.svg'],
   ['Docker', '/svgs/Docker.svg'],
   ['Clerk', '/svgs/clerk.svg'],

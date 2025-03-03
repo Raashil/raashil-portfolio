@@ -46,15 +46,14 @@ export default function About() {
             <div className="text-md relative z-40 flex flex-col gap-3 font-semibold tracking-wide text-primary lg:absolute lg:right-0 lg:top-[27%] lg:block lg:max-w-[580px] lg:text-start lg:text-lg xl:top-1/3 xl:h-[442px] xl:max-w-[650px]">
               <div className="flex h-full flex-col justify-center gap-6">
                 <span>
-                  I&apos;m Front-end developer with expertise in TypeScript,
-                  React & Next.js. Proven ability to deliver user-centered web
-                  applications with a focus on intuitive experiences and user
-                  interaction.
+                  I&apos;m an early graduate and a Front-end Developer skilled in TypeScript, React, and Next.js, 
+                  with a passion for building user-friendly and interactive web applications. I also have hands-on experience in AI/ML, 
+                  having developed projects like an AI-driven interview question generator and a facial recognition system with 99% accuracy.
                 </span>
                 <span>
-                  Seeking for Web Development opportunities where I can leverage
-                  my skills to create meaningful connections between products
-                  and users.
+                I&apos;m eager to apply my skills in both web development and AI/ML to solve real-world problems and create meaningful solutions. 
+                I&apos;m actively seeking opportunities in Web Development and AI/ML where I can grow, contribute, and make an impact. 
+                Let&apos;s connect and build something great together!
                 </span>
                 <p className="flex flex-col items-start sm:items-center lg:items-start">
                   <span>So if you are interested,</span>

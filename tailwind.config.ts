@@ -20,6 +20,7 @@ const config = {
     extend: {
       colors: {
         lightBlue: "#8db7fc",
+        neonYellow: "#FFFF00",
         darkBlue: "#60a5fa",
         darkBg: "#0a0908",
         darkBeige: "#ddbea9",
