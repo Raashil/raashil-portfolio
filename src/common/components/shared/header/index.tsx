@@ -5,6 +5,7 @@ import { smoothScrollTo } from "@/common/lib/utils";
 import { useActiveSectionContext } from "@/common/stores/active-section";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import MovingBanner from "../../MovingBanner";
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
@@ -12,13 +13,16 @@ export default function Header() {
 
   return (
     <header className="relative z-[99]">
+      <MovingBanner />
+      <div>
       <motion.div
         className="fixed left-1/2 top-0 h-[4.5rem] w-full rounded-none border border-[#f4f3ee] border-opacity-40 bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] md:w-[41rem] md:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
+        style={{top: '3.5rem', height: '2.9rem'}}
       ></motion.div>
 
-      <nav className="fixed left-1/2 top-[0.15rem] flex h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
+      <nav className="fixed left-1/2 top-[0.15rem] flex h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0"  style={{top: '3.5rem'}}>
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-2 text-[0.9rem] font-medium transition-colors sm:w-[initial] sm:flex-nowrap sm:gap-5">
           {links.map((link) => (
             <motion.li
@@ -54,6 +58,8 @@ export default function Header() {
           ))}
         </ul>
       </nav>
+      </div>
+     
     </header>
   );
 }

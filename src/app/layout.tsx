@@ -43,6 +43,7 @@ export default function RootLayout({
               enableSystem
               disableTransitionOnChange
             >
+              
               <Header />
               {children}
               <Footer />
