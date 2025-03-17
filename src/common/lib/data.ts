@@ -37,6 +37,10 @@ export const links = [
     name: 'Contact',
     id: 'contact',
   },
+  {
+    name: 'Certifications',
+    id: 'certifications',
+  },
 ] as const;
 
 export const experiencesData = [

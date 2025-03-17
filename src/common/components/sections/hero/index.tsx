@@ -9,7 +9,6 @@ import { smoothScrollTo } from "@/common/lib/utils";
 import { motion } from "framer-motion";
 import { Linkedin } from "lucide-react";
 import Image from "next/image";
-import Certifications from "../../Certifications";
 
 export default function Hero() {
   const { ref } = useSectionInView("home");
@@ -101,7 +100,6 @@ export default function Hero() {
                 </a>
               </div>
             </motion.div>
-            <Certifications />
           </div>
         </div>
       </section>
