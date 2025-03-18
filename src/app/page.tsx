@@ -7,6 +7,7 @@ import Hero from "@/common/components/sections/hero";
 import Projects from "@/common/components/sections/projects";
 import Skills from "@/common/components/sections/skills";
 import Certifications from "@/common/components/Certifications";
+import BuyMeCoffee from "@/common/components/BuyMeCoffee";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Experience />
       <Skills />
       <Contact />
+      <BuyMeCoffee />
     </main>
   );
 }
