@@ -22,6 +22,10 @@ export const links = [
     id: 'about',
   },
   {
+    name: 'Certifications',
+    id: 'certifications',
+  },
+  {
     name: 'Projects',
     id: 'projects',
   },
@@ -36,10 +40,6 @@ export const links = [
   {
     name: 'Contact',
     id: 'contact',
-  },
-  {
-    name: 'Certifications',
-    id: 'certifications',
   },
 ] as const;
 
