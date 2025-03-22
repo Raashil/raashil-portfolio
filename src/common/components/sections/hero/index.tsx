@@ -29,14 +29,15 @@ export default function Hero() {
         <video
           width="480"
           height="720"
-          preload="none"
+          preload="auto"
           autoPlay
           crossOrigin="anonymous"
           muted
           loop
+          playsInline
           className="absolute -z-10 h-screen w-screen object-cover"
         >
-          <source src="/brooklyn_bridge.mp4" />
+          <source src="/brooklyn_bridge.mp4" type="video/mp4" />
         </video>
         <div className="container flex flex-col items-start justify-center tracking-wide text-black dark:text-white">
           <div className="container relative flex h-full w-full flex-col items-center">

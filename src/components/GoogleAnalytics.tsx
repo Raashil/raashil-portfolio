@@ -13,6 +13,7 @@ export default function GoogleAnalytics() {
         const response = await fetch('https://ipapi.co/json/');
         const data = await response.json();
         setIsUSUser(data.country_code === 'US');
+        console.log('Google Analytics: User location check completed', { isUSUser: data.country_code === 'US' });
       } catch (error) {
         console.error('Error fetching location:', error);
         // If we can't determine location, default to showing analytics
@@ -24,8 +25,11 @@ export default function GoogleAnalytics() {
   }, []);
 
   if (!isUSUser) {
+    console.log('Google Analytics: Not loading for non-US user');
     return null; // Don't load analytics for non-US users
   }
+
+  console.log('Google Analytics: Loading with ID:', process.env.NEXT_PUBLIC_GA_ID);
 
   return (
     <>

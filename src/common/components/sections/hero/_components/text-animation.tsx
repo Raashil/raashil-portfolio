@@ -31,8 +31,7 @@ export default function TextAnimation({
       },
     });
     return controls.stop;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [baseText.length, count, delay]);
 
   return (
     <motion.span

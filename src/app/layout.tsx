@@ -9,6 +9,7 @@ import Header from '@/common/components/shared/header';
 import Footer from '@/common/components/shared/footer';
 import { ModeToggle } from '@/common/theme/mode-toggler';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import LoadingScreen from '@/components/LoadingScreen';
 
 export const metadata: Metadata = {
   title: 'Raashil Aadhyanth | Portfolio',
@@ -45,6 +46,7 @@ export default function RootLayout({
               disableTransitionOnChange
             >
               <GoogleAnalytics />
+              <LoadingScreen />
               <Header />
               {children}
               <Footer />
