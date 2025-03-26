@@ -5,7 +5,7 @@
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 
-### Welcome to my portfolio project! This project showcases my skills and experience in web development using modern technologies like Next.js, Tailwind CSS, Framer Motion, and more. 
+### Welcome to my portfolio project! This project showcases my skills and experience in web development using modern technologies like Next.js, Tailwind CSS, Framer Motion, Google Analytics and more. 
 
 ## Features
 
@@ -27,7 +27,7 @@ Follow these instructions to set up the project locally.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/portfolio.git
+    git clone https://github.com/yourusername/raashil-portfolio.git
     ```
 2. Navigate to the project directory:
     ```sh
