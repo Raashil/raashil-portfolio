@@ -9,6 +9,7 @@ import surgeImg from '@/../public/images/surge.png';
 import portfolioImg from '@/../public/images/portfolio.png';
 import auditMasterImg from '@/../public/images/audit-master.png';
 import accountingImg from '@/../public/images/accounting.jpg';
+import mtanexusImg from '@/../public/images/mtanexus.png';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
 import { title } from 'process';
 
@@ -48,7 +49,7 @@ export const experiencesData = [
     title: 'Software Intern @ MTA',
     location: 'Brooklyn, New York, United States',
     description:
-      'I developing interactive React dashboards powered by Deepseek LLM, enabling natural language queries and delivering real-time insights to drive data-driven decision-making. I streamlined Enterprise Asset Management (EAM) software, reducing task completion time by 50% and enhancing workflow efficiency through tailored analytics dashboards. Currently, as the sole intern researcher at the MTA, I’m leading R&D efforts to build an innovative product that is projected to save the company MILLIONS by optimizing operations and revolutionizing efficiency. This unique opportunity allows me to combine my technical expertise with strategic problem-solving to create impactful, large-scale solutions.',
+      'I developing interactive React dashboards powered by LLM, enabling natural language queries and delivering real-time insights to drive data-driven decision-making. I streamlined Enterprise Asset Management (EAM) software, reducing task completion time by 50% and enhancing workflow efficiency through tailored analytics dashboards. Currently, as the sole intern researcher at the MTA, I’m leading R&D efforts to build an innovative product that is projected to save the company MILLIONS by optimizing operations and revolutionizing efficiency. This unique opportunity allows me to combine my technical expertise with strategic problem-solving to create impactful, large-scale solutions.',
     icon: React.createElement(BriefcaseBusinessIcon),
     date: 'Sept 2024 - Present',
   },
@@ -93,6 +94,14 @@ export const images = {
 };
 
 export const projectsData = [
+  {
+    title: 'MTA Nexus',
+    description: 'Interactive NYC Subway Map - A comprehensive subway tracking and visualization system developed as an intern at MTA. Features real-time station data, interactive mapping, and enhanced user experience for NYC commuters.',
+    tags: ['React', 'TypeScript', 'Next.js', 'Interactive Maps', 'Real-time Data', 'MTA API'],
+    imageUrl: mtanexusImg,
+    link: 'https://mta-nexus-raashil-aadhyanths-projects.vercel.app/',
+    status: '\n*Under Development🚧*',
+  },
   {
     title: 'Cogniscruit',
     description: `Generating Interview Questions for Candidates Using Large Language Models (LLMs) while considering GitHub, LinkedIn, and Leetcode.`,

@@ -35,14 +35,14 @@
   },
   "devDependencies": {
     "@types/locomotive-scroll": "^4.1.3",
-    "@types/node": "^22",
-    "@types/react": "^18",
+    "@types/node": "22.17.0",
+    "@types/react": "18.3.23",
     "@types/react-dom": "^18",
     "@types/react-vertical-timeline-component": "^3.3.6",
     "eslint": "^8",
     "eslint-config-next": "14.2.14",
     "postcss": "^8",
     "tailwindcss": "^3.4.13",
-    "typescript": "^5"
+    "typescript": "5.8.3"
   }
 }

@@ -6,7 +6,16 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Cookie } from 'lucide-react';
 
 export function CookieConsent() {
-  const [showConsent, setShowConsent] = useState(true);
+  const [showConsent, setShowConsent] = useState(false);
+
+  useEffect(() => {
+    // Check if user has already made a choice
+    const hasConsented = localStorage.getItem('cookieConsent');
+    if (hasConsented === null) {
+      // Only show consent if no choice has been made
+      setShowConsent(true);
+    }
+  }, []);
 
   const acceptCookies = () => {
     localStorage.setItem('cookieConsent', 'true');

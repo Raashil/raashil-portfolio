@@ -4,7 +4,7 @@ import styles from './MovingBanner.module.css';
 const MovingBanner: React.FC = () => {
   return (
     <div className={styles.banner}>
-      <p className={styles.text}>I am looking for Software Engineering Early/Mid roles! 🚀  •  I am looking for Software Engineering Early/Mid roles! 🚀  •  I am looking for Software Engineering Early/Mid roles! 🚀  •  I am looking for Software Engineering Early/Mid roles! 🚀</p>
+      <p className={styles.text}>Howdy! • Open to new opportunities •Howdy! • Open to new opportunities</p>
     </div>
   );
 };

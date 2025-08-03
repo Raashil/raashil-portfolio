@@ -46,14 +46,13 @@ export default function About() {
             <div className="text-md relative z-40 flex flex-col gap-3 font-semibold tracking-wide text-primary lg:absolute lg:right-0 lg:top-[27%] lg:block lg:max-w-[580px] lg:text-start lg:text-lg xl:top-1/3 xl:h-[442px] xl:max-w-[650px]">
               <div className="flex h-full flex-col justify-center gap-6">
                 <span>
-                  I&apos;m an early graduate and a Front-end Developer skilled in TypeScript, React, and Next.js, 
-                  with a passion for building user-friendly and interactive web applications. I also have hands-on experience in AI/ML, 
-                  having developed projects like an AI-driven interview question generator and a facial recognition system with 99% accuracy.
+                  As an early graduate Front-end Developer with proven expertise in TypeScript, React, and Next.js, I&apos;m committed to building seamless, high-performance web applications that delight users. My journey includes leading the development of interactive, scalable platforms and collaborating across teams to launch products that exceed user expectations.
                 </span>
                 <span>
-                I&apos;m eager to apply my skills in both web development and AI/ML to solve real-world problems and create meaningful solutions. 
-                I&apos;m actively seeking opportunities in Web Development and AI/ML where I can grow, contribute, and make an impact. 
-                Let&apos;s connect and build something great together!
+                  I bring hands-on AI/ML experience, having engineered solutions like an AI-powered interview question generator and a facial recognition system achieving 99% accuracy. My unique blend of front-end development and practical machine learning empowers me to bridge design, usability, and data-driven innovation.
+                </span>
+                <span>
+                  I&apos;m passionate about driving projects from ideation to impact solving complex challenges with thoughtful, modern solutions. I am now actively seeking opportunities where I can apply my skills, continue learning, and contribute to forward-thinking teams building the next generation of web and AI technologies.
                 </span>
                 <p className="flex flex-col items-start sm:items-center lg:items-start">
                   <span>So if you are interested,</span>
