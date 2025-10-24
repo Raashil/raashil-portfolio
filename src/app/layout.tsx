@@ -11,6 +11,7 @@ import { ModeToggle } from '@/common/theme/mode-toggler';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import LoadingScreen from '@/components/LoadingScreen';
 import { CookieConsent } from '@/components/CookieConsent';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: 'Raashil Aadhyanth | Portfolio',
@@ -47,6 +48,7 @@ export default function RootLayout({
               disableTransitionOnChange
             >
               <GoogleAnalytics />
+              <Analytics />
               <LoadingScreen />
               <Header />
               {children}
